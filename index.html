@@ -147,7 +147,7 @@
           <div class="cta">
             <button class="btn btn-primary" id="btn-voice">บอกรักแม่ด้วยเสียง 💬</button>
             <button class="btn btn-ghost" id="btn-confetti">กดส่งหัวใจ 💖</button>
-            <button class="btn btn-ghost" id="btn-share">แชร์หน้านี้</button>
+            <!--<button class="btn btn-ghost" id="btn-share">แชร์หน้านี้</button>-->
           </div>
         </div>
         <div>
@@ -161,7 +161,7 @@
       </section>
 
       <footer>
-        ทำด้วยรัก 💙 — เขียนเว็บไซต์ด้วย HTML/CSS/JS
+        ทำด้วยรัก 💙
       </footer>
     </div>
   </div>
@@ -272,7 +272,7 @@
     });
 
     // ===== ปุ่มแชร์หน้าเว็บ (ถ้ามี Web Share API) =====
-    const btnShare = document.getElementById('btn-share');
+   const btnShare = document.getElementById('btn-share');
     btnShare?.addEventListener('click', async ()=>{
       try{
         if(navigator.share){
